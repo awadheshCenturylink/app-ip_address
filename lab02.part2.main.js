@@ -21,7 +21,7 @@ const path = require('path');
  * as this module. IAP requires the path object's join method
  * to unequivocally locate the file module.
  */
-const { getIpv4MappedIpv6Address } = require(path.join(__dirname, 'ipv6.js'));
+const { getIpv4MappedIpv6Address } = require(path.join(__dirname, 'ipv4ToIpv6.js'));
 
 
 /**
